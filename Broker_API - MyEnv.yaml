@@ -18,6 +18,7 @@ paths:
             type: string
         - name: sp
           in: query
+          default: /triggers/When_a_HTTP_request_is_received/run
           schema:
             type: string
         - name: sv
